@@ -12,5 +12,5 @@ NodeBB Plugin that allows users to login/register via Gitlab as OAuth provider.
 * authURL -> http(s)://\<your-gitlab-instance-url\>/oauth/authorize
 * tokenURL -> http(s)://\<your-gitlab-instance-url\>/oauth/token
 * userRoute -> http(s)://\<your-gitlab-instance-url\>/api/v4/user
-1. Activate this plugin from the plugins page
-1. Restart your NodeBB
+4. Activate this plugin from the plugins page
+5. Restart your NodeBB

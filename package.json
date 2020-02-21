@@ -5,7 +5,7 @@
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rfc2822/nodebb-plugin-sso-gitlab"
+    "url": "https://github.com/srikarm/nodebb-plugin-sso-gitlab"
   },
   "keywords": [
     "nodebb",
@@ -17,8 +17,8 @@
     "registration"
   ],
   "author": {
-    "name": "Ricki Hirner",
-    "email": "hirner@bitfire.at"
+    "name": "Srikar Mallavarapu",
+    "email": "srikar@s4cna.com"
   },
   "license": "MIT",
   "readme": "",

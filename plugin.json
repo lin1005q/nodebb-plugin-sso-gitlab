@@ -2,7 +2,7 @@
 	"id": "nodebb-plugin-sso-gitlab",
 	"name": "NodeBB Gitlab SSO",
 	"description": "NodeBB Plugin that allows users to login/register via Gitlab.",
-	"url": "https://github.com/rfc2822/nodebb-plugin-sso-gitlab",
+	"url": "https://github.com/srikarm/nodebb-plugin-sso-gitlab",
 	"library": "./library.js",
 	"hooks": [
 		{ "hook": "static:app.load", "method": "init" },

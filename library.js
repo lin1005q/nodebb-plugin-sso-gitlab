@@ -52,13 +52,13 @@
 		displayName: 'Gitlab',
 		icon: 'fa-gitlab',
 		oauth2: {
-			authorizationURL: 'https://gitlab.com/oauth/authorize',
-			tokenURL: 'https://gitlab.com/oauth/token',
+			authorizationURL: nconf.get('oauth:authURL'),
+			tokenURL: nconf.get('oauth:tokenURL'),
 			clientID: nconf.get('oauth:id'),	// don't change this line
 			clientSecret: nconf.get('oauth:secret'),	// don't change this line
 		},
 		scope: 'openid read_user',
-		userRoute: 'https://gitlab.com/api/v4/user',	// This is the address to your app's "user profile" API endpoint (expects JSON)
+		userRoute: nconf.get('oauth:userRoute'),	// This is the address to your app's "user profile" API endpoint (expects JSON)
 	});
 
 	const OAuth = {};
